@@ -497,7 +497,7 @@ function generatetimelineRows() {
         e.push(bands[channel].Band);
 
         // Push Channel information with Frequency in parentheses
-        e.push(bands[channel].Channel + " (" + bands[channel].Frequency + ")");
+        e.push(bands[channel].Channel);
         
         // Push tooltip text: Channel with Frequency and Frequency range
         e.push(bands[channel].Channel + " (" + bands[channel].Frequency + ")\r\n" + bands[channel].FreqMin + " - " + bands[channel].FreqMax);
