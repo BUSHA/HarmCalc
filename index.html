@@ -1,0 +1,19 @@
+
+<html>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>    
+
+    <script type="text/javascript" src="script.js"></script>    
+
+    <body>
+        <h3>
+            Harmonics calculator
+        </h3>
+        <b>Set Radio Control Frequency (MHz):</b>
+        <input type="number" id="frequency" min="400" max="1250" step="1" value="960"/>
+        <b>Set Spectrum Range (MHz):</b>
+        <input type="number" id="spectrum" min="5" max="100" step="1" value="25"/>
+        <button onclick="calculateHarmonics();"><b>Calculate!</b> </button>
+        <div id="example5.1" style="height: 660px; width: 1024px"></div>
+        <div id="table_div"></div>
+    </body>
+</html>
